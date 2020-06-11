@@ -1,0 +1,46 @@
+connections:
+  JMS:
+    host: 185.209.29.240
+    port: 8222
+    username: admin
+    password: ''
+  Rabbit:
+    host: 185.209.29.240
+    port: 5676
+    username: lt
+    password: 123
+queues:
+  LT.WB.rq:
+    listenerParam:
+      threads: 3
+      sessions: 5
+    publisherParam:
+      threads: 3
+      sessions: 5
+    correlations:
+      jws:
+        regexp: '(.*)'
+        replace: '[[jwt]]'
+      refId:
+        regexp: '(.*)'
+        replace: '[[refId]]'
+      docId:
+        regexp: '(.*)'
+        replace: '[[docId]]'
+  LT.FUCK.rq:
+    listener param:
+      threads: 2
+      sessions: 10
+      publisher param:
+        threads: 2
+        sessions: 10
+      correlations:
+        jws:
+          regexp: '(.*)'
+          replace: '[[jwt]]'
+        refId:
+          regexp: '(.*)'
+          replace: '[[refId]]'
+        docId:
+          regexp: '(.*)'
+          replace: '[[docId]]'

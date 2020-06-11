@@ -1,0 +1,48 @@
+connections:
+  - name: JMX
+    host: 185.209.29.240
+    port: 8222
+    username: admin
+    password: ''
+  - name: Rabbit
+    host: 185.209.29.240
+    port: 8222
+    username: lt
+    password: 123
+queues:
+  - name: LT.WB.rq
+    queuePath: \home\sys-loadibmb\responses\LT.WB.rs
+    listenerParam:
+      threads: 3
+      sessions: 5
+    publisherParam:
+      threads: 3
+      sessions: 5
+    correlations:
+      - name: jwt
+        regexp: '(?<=ns0:jwt>)(.*)(?=<\/ns0:jwt>)'
+        replace: '[[jwt]]'
+      - name: refId
+        regexp: '(?<=refId>)(.*)(?=<\/ns0:refId>)'
+        replace: '[[refId]]'
+      - name: docId
+        regexp: '(?<=docId>)(.*)(?=<\/ns0:docId>)'
+        replace: '[[docId]]'
+  - name: LT.FUCK.rq
+    queuePath: \home\sys-loadibmb\responses\LT.WB.rs
+    listenerParam:
+      threads: 3
+      sessions: 5
+    publisherParam:
+      threads: 3
+      sessions: 5
+    correlations:
+      - name: jwt
+        regexp: '(?<=ns0:jwt>)(.*)(?=<\/ns0:jwt>)'
+        replace: '[[jwt]]'
+      - name: refId
+        regexp: '(?<=refId>)(.*)(?=<\/ns0:refId>)'
+        replace: '[[refId]]'
+      - name: docId
+        regexp: '(?<=docId>)(.*)(?=<\/ns0:docId>)'
+        replace: '[[docId]]'

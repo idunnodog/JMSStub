@@ -1,0 +1,66 @@
+<ns0:document xmlns:ns0="http://openbank.ru/digital/back/">
+    <ns0:header>
+        <ns0:docId>3b3bcb0f2fb54fed_3ae0ed179149F536-1</ns0:docId>
+        <ns0:refId>3b3bcb0f2fb54fed_3ae0ed179149f536</ns0:refId>
+        <ns0:dt>2020-05-07T15:15:55.334+03:00</ns0:dt>
+        <ns0:channe1>IB</ns0:channe1>
+        <ns0:jwt>1129027</ns0:jwt>
+    </ns0:header>
+    <ns0:agreement>
+        <ns0:card>
+            <ns0:ansGetCards>
+                <ns0:card>
+                    <ns0:cardId>9287833</ns0:cardId>
+                    <ns0:maskCardNum>22006524840V7063</ns0:maskCardNum>
+                    <ns0:virtualCardNum>22006524840V7063</ns0:virtualCardNum>
+                    <ns0:cardType>MMP Npoasunyras</ns0:cardType>
+                    <ns0:paySystem>MUP</ns0:paySystem>
+                    <ns0:paySystemPC>WaY4</ns0:paySystemPC>
+                    <ns0:cardExpDate>2023-08-31</ns0:cardExpDate>
+                    <ns0:balance>
+                        <ns0:amount>0</ns0:amount>
+                        <ns0:currency>RUR</ns0:currency>
+                    </ns0:balance>
+                    <ns0:status>INACTIVE</ns0:status>
+                    <ns0:designCode>MIP Hpomeuuvnaa Smart Contactless</ns0:designCode>
+                    <ns0:bic>044525297</ns0:bic>
+                    <ns0:isMain>true</ns0:isMain>
+                    <ns0:tariffPlan>
+                        <ns0:name>Opencard Зарплатная</ns0:name>
+                    </ns0:tariffPlan>
+                    <ns0:bankName>Openbank</ns0:bankName>
+                    <ns0:bic>3C</ns0:bsc>
+                    <ns0:startDate>2019-08-01</ns0:startDate>
+                    <ns0:lastTransactionDate>2019-09-02</ns0:lastTransactionDate>
+                    <ns0:type>debit</ns0:type>
+                    <ns0:issueType>PERSO</ns0:issueType>
+                    <ns0:distanceReissue>true</ns0:distanceReissue>
+                    <ns0:freeReissue>true</ns0:freeReissue>
+                    <ns0:prodGroup>719</ns0:prodGroup>
+                    <ns0:idExt>9073604</ns0:idExt>
+                    <ns0:account>
+                        <ns0:clientId>9073604</ns0:clientId>
+                        <ns0:number>***#</ns0:number>
+                        <ns0:name>Иванов Иван Александрович</ns0:name>
+                    </ns0:account>
+                    <ns0:loyalty>
+                        <ns0:openBonusAvb1>0</ns0:openBonusAvb1>
+                        <ns0:brandType>openCard</ns0:brandType>
+                        <ns0:freeP2PMaxLimit>20000</ns0:freeP2PMaxLimit>
+                        <ns0:freeP2PCurrentsum>0</ns0:freeP2PCurrentsum>
+                    </ns0:loyalty>
+                    <ns0:isOverdue>false</ns0:isOverdue>
+                    <ns0:cardHolderName>IVAN IVANOV</ns0:cardHolderName>
+                    <ns0:productCode>7038</ns0:productCode>
+                    <ns0:MD5>C03F20012E4BFC55a2926DAFAA4F097D</ns0:MD5>
+                    <ns0:smsInfo>
+                        <ns0:status>active</ns0:status>
+                        <ns0:phone>79287521630</ns0:phone>
+                    </ns0:smsInfo>
+                    <ns0:creditLimit>0</ns0:creditLimit>
+                </ns0:card>
+                <ns0:bsc>3C</ns0:bsc>
+            </ns0:ansGetCards>
+        </ns0:card>
+    </ns0:agreement>
+</ns0:document>

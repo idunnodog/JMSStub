@@ -1,0 +1,5 @@
+- name: JMX
+  host: 185.209.29.240
+  port: 8222
+  username: admin
+  password: ''

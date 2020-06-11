@@ -1,0 +1,18 @@
+<document xsi:schemaLocation="" xmlns="http://openbank.ru/digital/back/" xmlns:ns2="http: //openbank. ru/digital /back/complexid" xnlns:xsi="http: //www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <docId>3b3beb0F2fb54F8d_albe1e31150c83b0</docId>
+        <dt>2020-05-07715:15:52.545+03:00</dt>
+        <channel>IB</channel>
+        <jwt>1129027</jwt>
+        <IP/>
+    </header>
+    <agreement>
+        <card>
+            <reqGetCards>
+                <clientIds>
+                    <id bsc="3C">9073641</id>
+                </clientIds>
+            </reqGetCards>
+        </card>
+    </agreement>
+</document>
